@@ -1,0 +1,40 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Build Output ---
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+.factorypath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- Local Environment / Secrets ---
+.env
+.env.local
+src/environments/environment.prod.ts (optional: keep if you want to keep production keys out)
+
+# --- OS Related ---
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+/coverage
+/reports
